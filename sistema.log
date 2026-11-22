@@ -1,0 +1,14 @@
+2026-11-22 10:45:28,186 - INFO - Sistema Software FJ iniciado.
+2026-11-22 10:45:28,187 - INFO - Cliente registrado: C001
+2026-11-22 10:45:28,187 - INFO - Prueba 1 - Registro de cliente valido: exitosa
+2026-11-22 10:45:28,187 - INFO - Cliente registrado: C002
+2026-11-22 10:45:28,187 - INFO - Prueba 2 - Registro de segundo cliente: exitosa
+2026-11-22 10:45:28,187 - ERROR - Error al registrar cliente.
+Traceback (most recent call last):
+  File "C:\Users\Janus\Desktop\ANTONIO DIAZTAGLE\PROGRAMACION\Software_FJ\gestor.py", line 74, in registrar_cliente
+    raise DatosInvalidosError(
+        "Ya existe un cliente con esa identificacion."
+    )
+excepciones.DatosInvalidosError: Ya existe un cliente con esa identificacion.
+2026-11-22 10:45:28,189 - ERROR - Prueba 3 - Intento de registrar cliente duplicado: Ya existe un cliente con esa identificacion.
+2026-11-22 10:45:28,189 - ERROR - Prueba 4 - Creacion de cliente con correo invalido: El correo electronico no es valido.
